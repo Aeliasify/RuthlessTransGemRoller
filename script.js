@@ -1,6 +1,8 @@
 // ===================== RED GEMS =====================
 const redGems = [
   "Cleave of Rage",
+  "Shockwave Totem of Authority",
+  "Static Strike of Gathering Lightning",
   "Glacial Hammer of Shattering",
   "Ground Slam of Earthshaking",
   "Molten Strike of the Zenith",
@@ -36,6 +38,8 @@ const redGems = [
 // ===================== GREEN GEMS =====================
 const greenGems = [
   "Animate Weapon of Ranged Arms",
+  "Charged Dash of Projection",
+  "Flamethrower Trap of Stability",
   "Animate Weapon of Self Reflection",
   "Artillery Ballista of Cross Strafe",
   "Artillery Ballista of Focus Fire",
@@ -112,6 +116,11 @@ const greenGems = [
 const blueGems = [
   "Arc of Oscillating",
   "Arc of Surging",
+  "Kinetic Fusillade of Detonation",
+  "Orb of Storms of Squalls",
+  "Shock Nova of Procession", 
+  "Storm Burst of Repulsion",
+  "Siphoning Trap of Pain",
   "Armageddon Brand of Recall",
   "Armageddon Brand of Volatility",
   "Ball Lightning of Orbiting",
@@ -208,4 +217,5 @@ function rollGems() {
   document.getElementById("greenGem").innerText = "🟢 Green: " + green.join(", ");
   document.getElementById("blueGem").innerText = "🔵 Blue: " + blue.join(", ");
 }
+
 
